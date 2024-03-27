@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Noto+Sans+Thai:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Mitr', sans-serif;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+.shown{
+    display: block;
+}
+
+body {
+    background-color: #343434;
+}
+
+loading_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 88px;
+    border: 1px solid white;
+ 
+}
+
+loading_{
+    /* opacity: 0.9; */
+    position: fixed;
+    background-color: #555555;
+    transition: ease-in-out 1.2s;
+    bottom: 0vh;
+}
+.loaded_w{
+    bottom: -110vh;
+}
+#loading_t {
+    margin: 72px;
+    padding: 16px;
+    border: 1px solid white;
+}
+line_bot {
+
+    height: 2px;
+    width: 70%;
+    border-bottom: white solid 1px;
+}
+
+wrapper{
+    display: none;
+}
